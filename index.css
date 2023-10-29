@@ -4,6 +4,10 @@
     text-decoration: none;
     list-style: none;
 }
+h2{
+    font-size: 50px;}
+
+p{font-size: 36px;}
 
 nav{
     background-color: black;
@@ -37,4 +41,41 @@ ul li+li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
+  }
+
+  .about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title h2{
+    font-size: 50px;
+  }
+
+
+.me img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.description p{
+    font-size: 36;
+    margin-top: 20px;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .plans ul{
+    margin-top: 50px; ;
+  }
+
+  .plans li {
+   font-size: 36px;
+   text-decoration: ;
   }
