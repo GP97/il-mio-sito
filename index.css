@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    font-style: ;
 }
 h2{
     font-size: 50px;}
@@ -71,11 +72,23 @@ ul li+li:before {
     margin-top: 50px;
   }
 
-  .plans ul{
-    margin-top: 50px; ;
+  .plans ol{
+    margin-top: 20px; ;
   }
 
   .plans li {
    font-size: 36px;
    text-decoration: ;
+  }
+  .animals{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .animals img{
+    width: 200px;
+    height: 200px;
+    display: none;
   }
